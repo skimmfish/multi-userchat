@@ -1,0 +1,49 @@
+{
+  "name": "chatplugin",
+  "version": "1.0.0",
+  "description": "custom asynchronous nodejs and expressJs framework based multi-user chat application usable on third-party websites",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skimmfish/multi-userchat.git"
+  },
+  "keywords": [
+    "multi-user",
+    "chat",
+    "app",
+    "asynchronous",
+    "chat",
+    "application",
+    "mysql",
+    "based",
+    "chat",
+    "app"
+  ],
+  "author": "Olabiyi Emmanuel Ayodeji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skimmfish/multi-userchat/issues"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node-fetch": "2.0"
+  },
+    "devDependencies": {
+    "nodemon": "^2.0.16",
+    "winston": "^3.7.2"
+  },
+"homepage": "https://github.com/skimmfish/multi-userchat#readme"
+}
